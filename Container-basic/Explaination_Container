@@ -1,0 +1,26 @@
+What is a Container?
+Simple definition: A Container is like a box that can hold a child widget and style it with:
+
+-Background color
+-Padding (space inside)
+-Margin (space outside)
+-Borders
+-Shadows
+-Width and height
+-Alignment
+
+Think of it like: A <div> in HTML with CSS styling!
+
+Container Properties Cheat Sheet============================================================================================
+
+Property                 	What It Does	                    Example
+child                   	Widget inside	                    child: Text('Hi')
+color	                    Background color	                color: Colors.blue
+width                   	Width in pixels	                  width: 200
+height	                  Height in pixels	                height: 100
+padding	                  Space inside	                    padding: EdgeInsets.all(20)
+margin	                  Space outside	                    margin: EdgeInsets.all(10)
+alignment	                Position child inside           	alignment: Alignment.center
+decoration	              Borders, shadows, gradients	      decoration: BoxDecoration(...)
+transform               	Rotate, scale, skew	              transform: Matrix4.rotationZ(0.1)
+============================================================================================================================
