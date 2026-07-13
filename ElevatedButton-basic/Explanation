@@ -1,1 +1,13 @@
+What is an ElevatedButton?
+Simple definition: A button that appears to "float" above the screen with a shadow underneath it. It's the most common button in Material Design apps.
+
+Think of it like: A raised button with a shadow, like the "Submit" or "Login" buttons you see in most apps.
+
+========================================Visual Difference =========================================================
+[Button Type]	          [Look]	                                    [When to Use]
+ElevatedButton          Has shadow, "floats" above background	       Important actions (Submit, Login, Save)
+TextButton	            Just text, no background	                   Less important actions (Cancel, Learn More)
+OutlinedButton	        Has border, no shadow	                       Medium importance (Secondary actions)
+IconButton	            Just an icon	                               Toolbar actions (Search, Settings)
+====================================================================================================================
 
