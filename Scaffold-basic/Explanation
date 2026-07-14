@@ -6,15 +6,20 @@ Think of it like: The frame of a house - it holds everything together and provid
 Why Do You Need Scaffold?
 Without a Scaffold, your screen would be empty. The Scaffold gives you:
 
-Feature	What It Provides
-appBar	The top bar with title and actions
-body	The main content of your screen
-floatingActionButton	A floating button (like +)
-bottomNavigationBar	Bottom tabs
-drawer	Side menu that slides in
-bottomSheet	Panel that slides up from bottom
-backgroundColor	Screen background color
-The 7 Main Properties
+Feature	                     What It Provides
+appBar	                     The top bar with title and actions
+body	                       The main content of your screen
+floatingActionButton	       A floating button (like +)
+bottomNavigationBar	         Bottom tabs
+drawer	                     Side menu that slides in
+bottomSheet	                 Panel that slides up from bottom
+backgroundColor	             Screen background color
+
+
+
+The 7 Main Properties=======================================================================================
+
+
 1️⃣ appBar (Top Bar)
 What it does: The bar at the top of the screen.
 
@@ -26,6 +31,9 @@ Scaffold(
   ),
   body: ...,
 )
+
+
+
 2️⃣ body (Main Content)
 What it does: The main content of your screen (fills the space below the AppBar).
 
@@ -36,6 +44,9 @@ Scaffold(
     child: Text('Hello World'),
   ),
 )
+
+
+
 3️⃣ floatingActionButton (FAB)
 What it does: A circular button that "floats" above the content (usually for primary actions).
 
@@ -50,6 +61,9 @@ Scaffold(
     child: Icon(Icons.add),
   ),
 )
+
+
+
 4️⃣ bottomNavigationBar (Bottom Tabs)
 What it does: A bar at the bottom with tabs for navigation.
 
@@ -64,6 +78,10 @@ Scaffold(
     ],
   ),
 )
+
+
+
+
 5️⃣ drawer (Side Menu)
 What it does: A menu that slides in from the left side.
 
@@ -81,6 +99,10 @@ Scaffold(
     ),
   ),
 )
+
+
+
+
 6️⃣ backgroundColor (Background Color)
 What it does: Sets the background color of the Scaffold.
 
@@ -90,6 +112,9 @@ Scaffold(
   appBar: AppBar(title: Text('My App')),
   body: Center(child: Text('Hello')),
 )
+
+
+
 7️⃣ resizeToAvoidBottomInset (Keyboard Handling)
 What it does: Controls whether the body resizes when the keyboard appears.
 
@@ -99,4 +124,10 @@ Scaffold(
   appBar: AppBar(title: Text('My App')),
   body: Center(child: TextField()),
 )
+
 Default: true (body resizes to make room for keyboard)
+
+
+
+
+
