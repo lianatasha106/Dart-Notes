@@ -336,12 +336,12 @@ class MyApp extends StatelessWidget {
                 style: TextStyle(
                   fontSize: 32,
                   fontWeight: FontWeight.bold,
-                  color: Colors.white,
+                  color: Colors.black,
                   shadows: [
                     Shadow(
                       offset: Offset(0, 0),
-                      blurRadius: 20,
-                      color: Colors.blue,
+                      blurRadius: 10, //lagi sikit lagi nampak
+                      color: Colors.pink,
                     ),
                   ],
                 ),
