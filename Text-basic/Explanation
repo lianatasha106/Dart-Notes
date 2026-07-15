@@ -1,0 +1,97 @@
+What is a Text Widget?
+Simple definition: A widget that displays text on the screen. It's the most basic way to show words in your app.
+
+Think of it like: An <h1>, <p>, or <span> tag in HTML.
+
+The 5 Most Important Properties
+
+
+1️⃣ data (The Text to Display)
+What it does: The actual text string to show.
+
+dart
+Text('Hello World')
+
+
+
+
+
+2️⃣ style (How It Looks)
+What it does: Controls font size, color, weight, etc.
+
+dart
+Text(
+  'Hello World',
+  style: TextStyle(
+    fontSize: 24,
+    color: Colors.blue,
+    fontWeight: FontWeight.bold,
+  ),
+)
+
+
+
+
+3️⃣ textAlign (Horizontal Alignment)
+What it does: Aligns text left, center, or right.
+
+dart
+Text(
+  'Hello World',
+  textAlign: TextAlign.center,  // left, center, right, justify
+)
+
+
+
+
+
+
+
+4️⃣ overflow (What to Do When Too Long)
+What it does: Controls how overflowing text is handled.
+
+Value	What It Does
+TextOverflow.ellipsis	           Adds ... at the end
+TextOverflow.clip	               Cuts off the text
+TextOverflow.fade	               Fades out at the end
+TextOverflow.visible	           Shows overflowing text
+
+dart
+Text(
+  'This is a very long text that will overflow',
+  overflow: TextOverflow.ellipsis,  // Adds "..."
+  maxLines: 1,
+)
+
+
+
+
+5️⃣ maxLines (How Many Lines)
+What it does: Limits the number of lines displayed.
+
+dart
+Text(
+  'This is a long text that will wrap to multiple lines',
+  maxLines: 2,  // Only shows 2 lines
+  overflow: TextOverflow.ellipsis,
+)
+
+
+
+All TextStyle Properties==========================================================================
+
+Property	                        What It Does	                Example
+fontSize	                        Text size	                    fontSize: 24
+color	                            Text color	                  color: Colors.blue
+fontWeight	                      Boldness	                    fontWeight: FontWeight.bold
+fontStyle	                        Italic or normal	            fontStyle: FontStyle.italic
+letterSpacing	                    Space between letters	        letterSpacing: 2.0
+wordSpacing	                      Space between words	          wordSpacing: 4.0
+decoration	                      Underline, line-through	      decoration: TextDecoration.underline
+backgroundColor	                  Highlight color	              backgroundColor: Colors.yellow
+
+
+
+
+
+
